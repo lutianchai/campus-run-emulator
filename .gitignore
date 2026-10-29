@@ -1,0 +1,35 @@
+# SDK, virtual disks, all user state and credentials
+/运行环境/
+*.avd/
+*.img
+*.qcow2
+*.jks
+*.keystore
+*.pem
+*.key
+adbkey*
+.emulator_console_auth_token
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+# Local builds and reports
+空间切换App/build/
+__pycache__/
+*.pyc
+*.log
+*.pid
+*.state
+*.apk.idsig
+.DS_Store
+._*
+*.app/
+*.command.*备份
+交接*.md
+新会话交接提示词.md
+调试过程总结.md
+使用说明.txt
+闪退排查说明.txt
+GPS工具-LICENSE.txt
+空间切换-界面.png

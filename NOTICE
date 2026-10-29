@@ -1,0 +1,20 @@
+campus-run-emulator 第三方声明
+
+项目自行编写的脚本、Java 代码和文档使用 MIT（见 LICENSE）。
+gnss/ 中的三个 ARM64 ELF 文件源自 Android 模拟器的 Goldfish GNSS HAL，
+其上游版权属于 The Android Open Source Project，使用 Apache License 2.0，
+完整许可见 LICENSES/Apache-2.0.txt。上游相关文件声明：
+Copyright (C) 2020 The Android Open Source Project
+
+上游：https://android.googlesource.com/device/generic/goldfish/+/refs/heads/android13-release/gnss/
+历史实现：https://android.googlesource.com/device/generic/goldfish/+/ba02f72/
+依据：二进制内含 device/generic/goldfish/gnss/main.cpp 和 goldfish 命名空间。
+不是 hardware/interfaces/gnss/2.0/default 中的通用参考实现。
+
+本项目的 gnss-12sv、gnss-test-strong 已被修改，用于报告合成卫星状态和
+信号参数；它们不代表真实接收到的卫星信号。gnss-original 为本地留存原件。
+精确的字节改动和 SHA-256 见 gnss/patches.json、gnss/SHA256SUMS。
+原件来自 API 33 Google APIs ARM64 系统镜像 revision 17，构建
+TE1A.240213.009/12342917；原始二进制与具体 AOSP 提交的对应关系尚未独立验证。
+本仓库不声称可从上游源码逐位复现这些 ELF 文件；提供字节补丁复现方式。
+SDK、Google APIs 镜像、JDK 及第三方应用均不随仓库分发，适用各自许可。

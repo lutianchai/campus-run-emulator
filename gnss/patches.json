@@ -1,0 +1,70 @@
+{
+  "original_sha256": "760fbd0000f82a5c69c8c1e397467038f267f1ee392cd755f511ddbb1f2086e2",
+  "variants": {
+    "gnss-12sv": {
+      "sha256": "31fa9cf6d7dee4493e7987db5278b77165d8ce6b1f4eef46ea8cc9afc603b522",
+      "edits": [
+        {
+          "offset": 23202,
+          "before": "f041",
+          "after": "2842"
+        },
+        {
+          "offset": 23206,
+          "before": "0000",
+          "after": "3442"
+        },
+        {
+          "offset": 23210,
+          "before": "00007fb4be",
+          "after": "f04201cebb"
+        },
+        {
+          "offset": 37980,
+          "before": "a1439bb8",
+          "after": "810180d2"
+        },
+        {
+          "offset": 38000,
+          "before": "a8435bb8",
+          "after": "88018052"
+        },
+        {
+          "offset": 38032,
+          "before": "0b",
+          "after": "eb"
+        },
+        {
+          "offset": 38072,
+          "before": "ad439bb8",
+          "after": "8d0180d2"
+        }
+      ]
+    },
+    "gnss-test-strong": {
+      "sha256": "ebac7f0c207eacf44dff84175ea00165dcff539a77758eb929fc23e77a896b6b",
+      "edits": [
+        {
+          "offset": 23202,
+          "before": "f041",
+          "after": "2842"
+        },
+        {
+          "offset": 23206,
+          "before": "0000",
+          "after": "3442"
+        },
+        {
+          "offset": 23210,
+          "before": "00007fb4be",
+          "after": "f04201cebb"
+        },
+        {
+          "offset": 38032,
+          "before": "0b",
+          "after": "eb"
+        }
+      ]
+    }
+  }
+}
